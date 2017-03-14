@@ -1,0 +1,37 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>lab1</title>
+</head>
+<script>
+function Change(){
+var lol = document.getElementById("but1");
+if(lol.style.background == "red")
+{
+lol.style.background  = "yellow"; 
+}
+else if(lol.style.background  == "yellow")
+{
+lol.style.background  = "green";
+}
+else{
+lol.style.background  = "red"; 
+}
+}
+
+</script>
+<body>
+
+<div id="but1" style="background:red; width:200px; height:200px; margin-left:550px; margin-top:400px;"> 
+</div>
+
+<button onclick="Change()" style="margin-left:620px;">Change</button> 
+
+</body>
+</html>
+
+
+
+
+
